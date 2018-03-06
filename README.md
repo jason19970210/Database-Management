@@ -76,7 +76,7 @@ Resource : ftp://163.25.117.117/chunyi/
 7. 紀錄出現的順序不具意義
 
 #### 替代用語
-![Alt text](https://imgur.com/a/DoYlg)
+![1](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/1.png)
 
 ## Microsoft Access
 + Data Type
