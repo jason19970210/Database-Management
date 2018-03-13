@@ -147,8 +147,8 @@ FK point to PK
 ## Example
 ![3](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/3.png)
 
-Result: True
-Reason: 若刪除資料時無此資料, 則不進行動作, 亦不顯示錯誤訊息
++ Result: True
++ Reason: 若刪除資料時無此資料, 則不進行動作, 亦不顯示錯誤訊息
 
 ## Microsoft Access
 + Data Type
