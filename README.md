@@ -36,6 +36,10 @@ Resource : ftp://163.25.117.117/chunyi/
 		- [**資料表**](#Tables)是一個資料庫的最基本建構塊
 - 完整性規則
 	- 確保資料的**有效**
+	- 關聯完整性 ( Relational Integrity )
+		+ 實體完整性 ( Entity Integrity )
+		+ 參照完整性 ( Referential Integrity )
+	- 任一筆資料都**不可違反上述兩個完整性**
 - 操作
 	- 允許對資料操作的類型
 	- 擷取、新增、修改、刪除
@@ -110,8 +114,16 @@ Resource : ftp://163.25.117.117/chunyi/
 - 其出現代表這兩個資料表的紀錄存在**關係**
 - 外鍵與其參照的候選鍵需具有相同的資料型態與大小
 
-註：參照：由外鍵找主鍵
+註：參照：由外鍵找主鍵  
+FK point to PK
 
+### 空值 `NULL`
+
+### 資料字典
+![2](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/2.png)
+
++ X 代表文字
++ Departments.dept_no ：Departments 資料表中的 dept_no 欄位
 
 ## Microsoft Access
 + Data Type
