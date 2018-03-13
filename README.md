@@ -78,5 +78,23 @@ Resource : ftp://163.25.117.117/chunyi/
 #### 替代用語
 ![1](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/1.png)
 
+
+## Keys
+#### Candidate Key 候選鍵
+- 一個資料表必須至少有一個候選鍵
+- 一個候選鍵可以只含有一個欄位或是多個欄位
+	> 當一個候選鍵由多個欄位組成，稱作「複合鍵」
+- 候選鍵特質
+	- 唯一性(Uniqueness)
+		> 能夠唯一辨識每一筆資料
+	- 不可減少性(Irreducibility)
+		> 若從表中刪除任何欄位，將使其不再具有唯一辨識性
+- 
+> - Primary Kpey 主鍵
+	- 在所有候選鍵中，擇一作為主鍵
+	- 在資料運算時，需要唯一辨識紀錄(Record)
+> - Alternate Key 替代鍵
+
+
 ## Microsoft Access
 + Data Type
