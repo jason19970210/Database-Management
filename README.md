@@ -160,6 +160,30 @@ FK point to PK
 	4. SET DEFAULT
 	> 將子紀錄之**外鍵值**設為**預設值**
 
+## 資料表關係
+- 1-1 Relationships
+	> 「老師」擔任「科系」系主任
+	![8](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/8.png)
+
+	- 由一個主鍵與一個外鍵建立關係
+		- **且外鍵必須設定為「唯一不會重複」**
+
+- 1-M Relationships
+	> 「科系」和「學生」關係
+	![10](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/10.png)
+	- 一個**PK.** + **FK.**
+
+- M-M Relationships
+	> 「員工」擁有的「證照」關係
+	![11](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/11.png)
+
+	**(兩組 1對多的關係)+(一個鏈接資料表)**
+
+### 自我參照
+- 外鍵參照同一資料表中的主鍵
+- 代表同一個資料表不同記錄之間的關係
+![12](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/12.png)
+
 
 ## Example
 ![3](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/3.png)
