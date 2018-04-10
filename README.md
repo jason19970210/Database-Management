@@ -143,6 +143,23 @@ FK point to PK
 + X 代表文字
 + Departments.dept_no ：Departments 資料表中的 dept_no 欄位
 
+### 被參照
+- 假如這筆資料的**主鍵值**出現在另一個資料表中的外鍵欄位上
+- 主紀錄 Parent Record : 「被參照」的紀錄
+- 子紀錄 Child Record : 「參照」其他紀錄的那些紀錄
+	#### 時機點
+	- 刪除被參照的紀錄時
+	- 修改被參照的紀錄之主鍵值時
+	#### 四個可能的行動
+	1. RESTRICT
+	> 不允許刪除被參照的紀錄 (系統預設行為)
+	2. CASECADE
+	> 對於參照此筆紀錄的子紀錄執行相同異動
+	3. SET NULL
+	> 將子紀錄之**外鍵值**設為**空值**
+	4. SET DEFAULT
+	> 將子紀錄之**外鍵值**設為**預設值**
+
 
 ## Example
 ![3](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/3.png)
