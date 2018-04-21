@@ -79,8 +79,8 @@ Resource : ftp://163.25.117.117/chunyi/
 	> 變長的文字資料
 - NUMBER[(p,s)]
 	```SQL
-	NUMBER(3,2) -> -9.99 ~ 9.99
-	NUMBER(2)	-> -99 ~ 99
+	NUMBER(3,2)  -> -9.99 ~ 9.99
+	NUMBER(2)    -> -99 ~ 99
 	```
 - DATE
 	> 日期與時間
