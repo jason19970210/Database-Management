@@ -209,6 +209,7 @@ FK point to PK
 - 刪除不依賴索引鍵的欄位
 - 消除資料表中的**遞移相依** (Transitive Dependency)
 
+![14](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/14.png)
 
 ## Example
 ![3](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/3.png)
