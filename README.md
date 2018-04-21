@@ -184,7 +184,7 @@ FK point to PK
 - 代表同一個資料表不同記錄之間的關係
 ![12](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/12.png)
 
-### 正規化 Normalization
+### 正規化 Normalization (資料表分割)
 #### 目的
 - 降低資料的「重複性」**Data Redundancy**
 - 避免「更新異常」**Anomalies**
