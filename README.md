@@ -208,9 +208,9 @@ FK point to PK
 		- 使用外部索引鍵，讓這些資料表產生關聯
 		- 為可套用於多筆記錄的多組值建立不同的資料表
 
-	#### 第三正規化 3NF (將非主鍵決定的欄位獨立成新表單)
-- 刪除不依賴索引鍵的欄位
-- 消除資料表中的**遞移相依** (Transitive Dependency)
+	- #### 第三正規化 3NF (將非主鍵決定的欄位獨立成新表單)
+		- 刪除不依賴索引鍵的欄位
+		- 消除資料表中的**遞移相依** (Transitive Dependency)
 
 ![14](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/14.png)
 
