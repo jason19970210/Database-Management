@@ -206,7 +206,7 @@ FK point to PK
 	- #### [第一正規化](http://database.klab.tw/teach/t5_1.php) 1NF (First Normal Form) (去除重複群組、確定主鍵)
 		- 每一個欄位只能有一個基元值(Atomic)即單一值
 		- 沒有任何兩筆以上的資料是完全重覆
-		- 資料表中有主鍵, 而其他所有的欄位都相依於「主鍵」
+		- 資料表中有主鍵, 而其他所有的欄位都相依於「主鍵」  
 		P.S. Funtional Dependency 功能支配關係
 
 	- #### [第二正規化](http://database.klab.tw/teach/t5_2.php) 2NF (分離部分相依性、保留完全相依性)
