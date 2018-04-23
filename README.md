@@ -187,11 +187,15 @@ FK point to PK
 - 代表同一個資料表不同記錄之間的關係
 ![12](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/12.png)
 
-## 正規化 Normalization (資料表分割)
+## [正規化](http://database.klab.tw/teach/t5.php) Normalization (資料表分割)
 - ### 目的
 	- 降低資料的「重複性」**Data Redundancy**
-	- 避免「更新異常」**Anomalies**
-
+	- 避免「異常」**Anomalies**
+		- Insertion Anomaly
+		- Deletion Anomaly
+		> 刪除資料表中的某筆資料，可能也把一些重要欄位的資料也一併刪除。 
+		- Update Anomaly
+		> 在修改時，由於有資料重複的現象，必須做多筆資料的更新才能完全修改。
 - ### 無損失分解 Lossless Decomposition
 	- #### 定義
 	是指將原先關聯(表格)的所有資訊，在「分解」之後，仍能由數個新關 聯(表格)中經過「合併」得到相同的資訊。
@@ -199,13 +203,13 @@ FK point to PK
 	當關聯表R被「分解」成數個關聯表R1, R2, ..., Rn 時，則可以再透過 「合併」R1 R2 ... Rn得到相同的資訊R。
 
 - ### 規則
-	- #### 第一正規化 1NF (First Normal Form) (去除重複群組、確定主鍵)
+	- #### [第一正規化](http://database.klab.tw/teach/t5_1.php) 1NF (First Normal Form) (去除重複群組、確定主鍵)
 		- 每一個欄位只能有一個基元值(Atomic)即單一值
 		- 沒有任何兩筆以上的資料是完全重覆
 		- 資料表中有主鍵, 而其他所有的欄位都相依於「主鍵」
 		P.S. Funtional Dependency 功能支配關係
 
-	- #### 第二正規化 2NF (分離部分相依性、保留完全相依性)
+	- #### [第二正規化](http://database.klab.tw/teach/t5_2.php) 2NF (分離部分相依性、保留完全相依性)
 		- 所有**非主鍵**欄位都要與**主鍵**相關
 		- 使用外部索引鍵，讓這些資料表產生關聯
 		- 為可套用於多筆記錄的多組值建立不同的資料表
