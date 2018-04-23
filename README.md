@@ -36,8 +36,8 @@ Resource : ftp://163.25.117.117/chunyi/
 		- [**資料表**](#Tables)是一個資料庫的最基本建構塊
 - 完整性規則
 	- 確保資料的**有效**
-	- 關聯完整性 ( Relational Integrity )
-		+ 實體完整性 ( Entity Integrity )
+	- 關聯完整性 ( Relational Integrity Rule )
+		+ 實體完整性 ( Entity Integrity Rule )
 			+ 定義何謂**有效**「實體」
 			+ 定義何謂**有效**「紀錄」
 				+ 每一筆資料/紀錄都是唯一、可辨識
@@ -46,7 +46,7 @@ Resource : ftp://163.25.117.117/chunyi/
 					+ 不會包含空值 NULL
 				+ 唯一
 					+ 主鍵的值**不會重複**
-		+ 參照完整性 ( Referential Integrity )
+		+ 參照完整性 ( Referential Integrity Rule )
 			+ 定義**有效**「關係」
 			+ 關聯式資料庫使用「外鍵」來記錄關係
 			+ 定義何謂**有效**「外鍵」
@@ -56,9 +56,9 @@ Resource : ftp://163.25.117.117/chunyi/
 				+ 空值
 					+ 假設情況允許
 	- 任一筆資料都**不可違反上述兩個完整性**
-		+ 區域完整性 ( Domain Integrity )
+		+ 區域完整性 ( Domain Integrity Rule )
 			- 符合儲存格之規則
-		+ 使用者定義之完整性 ( User-defined Integrity )
+		+ 使用者定義之完整性 ( User-defined Integrity Rule )
 - 操作
 	- 允許對資料操作的類型
 	- 擷取、新增、修改、刪除
